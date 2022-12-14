@@ -5,7 +5,9 @@
  * the character to print
  * Return the success 1
  * Do error, -1 is retuned, and error is set approximately.
+ *
  */
+
 int main(void)
 {
 _putchar('_');
