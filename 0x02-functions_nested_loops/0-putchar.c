@@ -1,11 +1,12 @@
-#include <stdio.h>
-
-void print_alphabet(void)
+#include "main.h"
+#include <unistd.h>
+/**
+ * _putchar - writes the character C to stdout
+ * the character to print
+ * Return the success 1
+ * Do error, -1 is retuned, and error is set approximately.
+ */
+int _putchar(char c)
 {
-	char letter;
-
-	for (letter = 'a'; letter <= 'z'; letter++)
-		_putchar(letter);
-
-	_putchar('\n');
+	return (write(l, &c, 1));
 }
