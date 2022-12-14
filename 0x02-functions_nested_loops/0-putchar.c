@@ -1,12 +1,21 @@
 #include "main.h"
-#include <unistd.h>
+
 /**
  * _putchar - writes the character C to stdout
  * the character to print
  * Return the success 1
  * Do error, -1 is retuned, and error is set approximately.
  */
-int _putchar(char c)
+int main(void)
 {
-	return (write(l, &c, 1));
+_putchar('_');
+_putchar('p');
+_putchar('u');
+_putchar('t');
+_putchar('c');
+_putchar('h');
+_putchar('a');
+_putchar('r');
+_putchar('\n');
+return (0);
 }
