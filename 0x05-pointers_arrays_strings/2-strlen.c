@@ -7,7 +7,7 @@
  * Return: Length of a string
  */
 
-int _strlen(har *s)
+int _strlen(char *s)
 {
 	int i;
 	int length = 0;
@@ -17,4 +17,4 @@ int _strlen(har *s)
 		length++;
 	}
 	return (length);
-}
+i}
