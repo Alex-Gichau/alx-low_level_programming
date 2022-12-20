@@ -1,4 +1,5 @@
-#include "holberton.h"
+#include "main.h"
+#include <stdio.h>
 /**
  * Function that takes a pointer ot an int as parameter and update the vale
  */
