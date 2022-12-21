@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * print_triangle - prints a triangle, followed by a line
- * @size: size of the triangle
+ * print_triangle - prints a triangle, followed by a line.
+ * @size: size of the triangle.
  */
 void print_triangle(int size)
 {
