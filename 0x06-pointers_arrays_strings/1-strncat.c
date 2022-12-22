@@ -9,7 +9,7 @@
  * Return: destination return
  */
 
-char *_strncat(char *dest, char, char *src, int n)
+char *_strncat(char *dest, char *src, int n)
 {
 	int index = strlen(dest);
 	int a = 0;
