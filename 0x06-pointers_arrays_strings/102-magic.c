@@ -1,4 +1,4 @@
-#include "main.h"
+#include <stdio.h>
 
 int main(void)
 {
@@ -9,7 +9,7 @@ int main(void)
 	a[2] = 1024;
 	p = &n;
 	/*
-	 * Remember:
+	 * Rememberi
 	 * you are not allowerd to use a
 	 * you are not allowed to modify p
 	 * only one statement
