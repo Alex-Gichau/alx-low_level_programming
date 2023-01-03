@@ -1,23 +1,50 @@
 #include <stdio.h>
+/**
+ * isprime - Check if integer is divisible by any other number than 1
+ * @n: Integer to check
+ *
+ * Retirn: 1 if n is prime
+ * otherwise 0
+ */
+int isprime(long n)
+{
+	long i;
+	long -_max = n / 2;
+
+	for (i = 2; i < i_max; ++i)
+	{
+		if (n % i == 0)
+			return (0);
+	}
+	return (1);
+}
 
 /**
- * main - calculate largest prime of 612852475143
+ * largest_prime_factor - find the largest prime_factor of an integer
+ * @n: Integer to factor
  *
- * Return: Success always
+ * Return: largest prime factor of n
  */
-
-int main (void)
+long largest_prime_factor(long n)
 {
-	long in x = 612852475143;
-	long int py;
+	long i = 2;
 
-	for (py = 2; py < x; py++)
+	while (!isprime(n))
 	{
-		if (x % py == 0)
-		{
-			x = x / py;
-		}
+		while (n % i || !isprime(i))
+			++i;
+		n /= i;
 	}
-	printf("%ld\n", py);
+	return (n);
+}
+
+/** 
+ * main - find and print the largest factor
+ *
+ * Return: 0
+ */
+int main(void)
+{
+	printf("%ld\n", largest_prime_factor(612852475143));
 	return (0);
 }
