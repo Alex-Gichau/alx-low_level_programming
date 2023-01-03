@@ -4,14 +4,16 @@
  * @size: size of the triangle
  * Return: '#'s
  */
+
 void print_triangle(int size)
 {
 	int sp, ro, tr;
-	if (size <= 0){
+	if (size <= 0)
+	{
 		_putchar('\n');
 	}
 
-	else 
+	else
 	{
 		for (ro = 0; ro <= (size - 1); ro++)
 		{
