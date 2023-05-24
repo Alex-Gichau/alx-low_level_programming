@@ -16,3 +16,9 @@
 #include "102-fibonacci.c"
 #include "103-fibonacci.c"
 #include "104-fibonacci.c"
+
+int main(void)
+{
+	0-putchar();
+	1-alphabet();
+}
